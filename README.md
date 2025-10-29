@@ -82,7 +82,7 @@ If you are ready to dig deeper and discuss the full architecture, you know where
 
 **Concept and Experimental Framework by:**  
 Graevka  
-Contact: [GitHub Profile] | [Twitter] | [Email]
+Contact: [GitHub Profile] | [https://x.com/Graevka?s=09] | [suvorovgraevka@gmail.com]
 
 ## 📄 License
 
