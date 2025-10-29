@@ -62,5 +62,6 @@ This is not a project for idle curiosity. It is a deep, long-term research initi
 If you are a practitioner genuinely committed to building the future of safe AI and you see potential here, I welcome a constructive dialogue.
 
 *   **Architect:** Graevka
-*   **Contact:** [X.com/Graevka](https://x.com/Graevka?s=09) | `suvorovgraevka@gmail.com`
+*   **Contact:** [X.com/Graevka](https://x.com/Graevka?s=09)
+*   **LinkedIn:** [graevka-suvorov-97332b369](https://www.linkedin.com/in/graevka-suvorov-97332b369/)
 *   **License:** [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
