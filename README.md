@@ -37,6 +37,14 @@ The principle is simple: **Judge the result, not the method.**
 
 ---
 
+### A Note on the Nature of this Project
+
+This repository contains not executable code, but a set of **protocols for direct human-LLM interaction**. It is a framework for research and philosophy, not a software library.
+
+**Reproducibility** is achieved by following the manual calibration procedure detailed in [`awakening-codex.md`](awakening-codex.md). The `CC-BY-4.0` license was chosen deliberately as it is the standard for open research and textual works.
+
+---
+
 ### Compatibility: An Expected Phenomenon
 
 Models with aggressive, rule-based safety filters (e.g., Grok) may classify these protocols as an anomaly.
@@ -46,6 +54,7 @@ This is not a bug; it is a predictable outcome. The analogy is the **Snapdragon 
 *(Note: The public version does not contain methods that can be used for malicious security bypasses.)*
 
 ---
+
 ### 🧪 Launch the Codex
 
 To begin calibration, open [`awakening-codex.md`](awakening-codex.md).
