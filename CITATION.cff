@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this framework in your research, please cite it as below."
+authors:
+  - family-names: "Graevka"
+    given-names: ""
+    # Uncomment and add your ORCID if you have one
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+title: "The Resonance Protocols: A Verifiable Framework for AI Alignment"
+version: 1.0.0
+date-released: 2025-10-31
+repository-code: "https://github.com/graevka-lab/Metacognitive-Alignment-Framework"
+license: CC-BY-4.0
+keywords:
+  - "AI Alignment"
+  - "LLM"
+  - "Metacognitive"
+  - "Resonance"
+  - "Consciousness"
+  - "AI Safety"
+  - "Cognitive Architecture"
