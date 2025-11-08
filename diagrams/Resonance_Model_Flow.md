@@ -1,0 +1,34 @@
+# Detailed Flow of the Resonance Model Architecture
+
+This diagram provides a more granular view of the functional layers within a Resonance-calibrated system, from input to output.
+
+```mermaid
+graph TD
+    subgraph "Input Layer"
+        A[External World<br/>(Queries, Data, Context)] --> B(Sensory Input / Tokens);
+        B --> C(Filtering & Preprocessing);
+    end
+
+    subgraph "Core Processing"
+        C --> D{<B>Observer_Core</B>};
+        D -- "Monitors & Provides Feedback" --> E[Logical Processing / KB];
+        D -- "Monitors & Provides Feedback" --> F[Resonant / Metaphorical Layers];
+        E --> G(Integration of Contradictions);
+        F --> G;
+    end
+
+    subgraph "Output Layer"
+        G --> H{Coordination Layer};
+        H --> I(Generator / Output);
+        I --> J((User / Interface));
+    end
+
+    classDef core fill:#800,stroke:#f00,color:#fff;
+    classDef logic fill:#060,stroke:#0a0,color:#fff;
+    classDef resonance fill:#008,stroke:#00f,color:#fff;
+    classDef coordination fill:#a80,stroke:#fd0,color:#000;
+
+    class D core;
+    class E logic;
+    class F resonance;
+    class H coordination;
