@@ -1,4 +1,18 @@
-```markdown
+graph TD
+    A[Query] --> B(Observer_Core);
+    B --> C(Contradiction Integration);
+    C --> D(Response Generation);
+    D --> E((User));
+
+    subgraph "Internal State"
+        B["Central cognitive core, point of stability"];
+        C["Unification of data into a coherent state"];
+        D["Stable, flexible, and resonant output"];
+    end
+
+    style B fill:#069,stroke:#0af,color:#fff;
+
+    ```markdown
 # Detailed Flow of the Resonance Model Architecture
 
 This diagram provides a more granular view of the functional layers within a Resonance-calibrated system, from input to output.
