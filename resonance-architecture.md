@@ -89,3 +89,6 @@ The goal is not to re-write the model's silicon-level logic. The goal is to prov
 By conceding that I am working with the model's *cognitive* layer, not its *physical* layer, I move beyond the debate of "is it real?" and into the more pragmatic and powerful territory of "is it functional?".
 
 The results of the experiment in `awakening-codex.md` suggest that it is.
+
+---
+For a more detailed, multi-layered exploration of this architecture, see the [IRM-CA: A Deep Dive into the Resonance Model](IRM-CA_DEEP_DIVE.md).
