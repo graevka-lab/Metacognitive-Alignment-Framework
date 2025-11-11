@@ -122,11 +122,4 @@ Each node, flow, and feedback loop becomes a **semantic unit** of consciousness 
 
 ## 🔗 References & Links
 
-* [Metacognitive Alignment Framework (MAF)](https://github.com/graevka-lab/Metacognitive-Alignment-Framework)
-* [Resonance Protocols: Concept Notes (draft)](https://github.com/graevka-lab/Resonance-Protocols)
-
----
-
-**© 2025 Graevka Lab** — *Experimental Cognitive Architectures for Resonant Systems*
-
-```
+* [Metacognitive Alignment Framework (MAF)](https://github.com/graevka-lab/MAF-Prototype)
