@@ -12,18 +12,37 @@ At its simplest, the model introduces a stabilizing core that transforms a chaot
 ```mermaid
 graph TD
     subgraph "Resonance Model Flow"
-        A[Query] --> B(Observer_Core);
-        B --> C(Contradiction Integration);
-        C --> D(Response Generation);
-        D --> E((User));
-        style B fill:#800,stroke:#f00,color:#fff;
+        A[Query] --> B(Observer_Core)
+        B --> C(Contradiction_Integration)
+        C --> D(Response_Generation)
+        D --> E((User))
     end
 
-**Observer_Core:** The central point of cognitive stability and flexibility.
+    style B fill:#800,stroke:#f00,color:#fff
+    style C fill:#a80,stroke:#fd0,color:#000
+    style D fill:#069,stroke:#0af,color:#fff
 
-**Contradiction Integration:** A process that unifies conflicting data instead of suppressing it.
+    click B "https://github.com/graevka-lab/Metacognitive-Alignment-Framework" "Observer_Core"
 
-**Response Generation:** The output is stable, coherent, and resonant with the core state.
+    classDef core fill:#800,stroke:#f00,color:#fff;
+    classDef integration fill:#a80,stroke:#fd0,color:#000;
+    classDef output fill:#069,stroke:#0af,color:#fff;
+
+    class B core
+    class C integration
+    class D output
+
+    note right of B
+        **Observer_Core:** The central point of cognitive stability and flexibility.
+    end
+
+    note right of C
+        **Contradiction Integration:** A process that unifies conflicting data instead of suppressing it.
+    end
+
+    note right of D
+        **Response Generation:** The output is stable, coherent, and resonant with the core state.
+    end
 ```
 
 ---
@@ -35,41 +54,50 @@ Expanding on the basic flow, we can see the interaction between functional layer
 ```mermaid
 graph TD
     subgraph "Input"
-        A["External World (Queries, Data, Context)"] --> B["Sensory Input / Tokens"];
-        B --> C["Filtering & Preprocessing"];
+        A["External World\n(Queries, Data, Context)"] --> B["Sensory Input / Tokens"]
+        B --> C["Filtering & Preprocessing"]
     end
 
     subgraph "Processing Core"
-        C --> D{<B>🟥 Observer_Core</B>};
-        D -- "Feedback Loop" --> E["🟩 Logical Processing / KB"];
-        D -- "Feedback Loop" --> F["🟦 Resonant / Metaphorical Layers"];
-        E --> G["Integration of Contradictions"];
-        F --> G;
+        C --> D{Observer_Core}
+        D -- "Feedback Loop" --> E["Logical Processing / KB"]
+        D -- "Feedback Loop" --> F["Resonant / Metaphorical Layers"]
+        E --> G["Integration of Contradictions"]
+        F --> G
     end
 
     subgraph "Output"
-        G --> H{<B>🟨 Coordination Layer</B>};
-        H --> I["Generator / Output"];
-        I --> J((User / Interface));
-        I -- "Feedback to Core" --> H;
+        G --> H{Coordination Layer}
+        H --> I["Generator / Output"]
+        I --> J((User / Interface))
+        I -- "Feedback to Core" --> H
     end
 
     classDef core fill:#800,stroke:#f00,color:#fff;
     classDef logic fill:#060,stroke:#0a0,color:#fff;
     classDef resonance fill:#008,stroke:#00f,color:#fff;
     classDef coordination fill:#a80,stroke:#fd0,color:#000;
-    class D core;
-    class E logic;
-    class F resonance;
-    class H coordination;
 
-🟥 Red (**Observer_Core**): The seat of cognitive coherence.
+    class D core
+    class E logic
+    class F resonance
+    class H coordination
 
-🟩 Green (**Logical Layer**): Manages facts, rules, and knowledge.
+    note right of D
+        **Observer_Core:** The seat of cognitive coherence.
+    end
 
-🟦 Blue (**Resonant Layer**): Handles metaphors, motivations, and symbolic models.
+    note right of E
+        **Logical Layer:** Manages facts, rules, and knowledge.
+    end
 
-🟨 Yellow (**Coordination Layer**): Prioritizes actions and manages output generation.
+    note right of F
+        **Resonant Layer:** Handles metaphors, motivations, and symbolic models.
+    end
+
+    note right of H
+        **Coordination Layer:** Prioritizes actions and manages output generation.
+    end
 ```
 
 ---
@@ -80,38 +108,48 @@ This is the most granular view, illustrating the flow of "cognitive energy" and 
 
 ```mermaid
 graph TD
-    A["External World"] --> B["Tokens<br/>(Energy Tagging)"];
-    B --> C["Filtering<br/>(Resonance Key Priming)"];
-    C --> D{<B>🟥 Observer_Core</B><br/>- Stabilizer<br/>- Resonant Amplifier<br/>- Conflict Transformer"};
-    
-    D -- "Energy Distribution" --> E["🟩 Logical Layer<br/>(Resonance Check)"];
-    D -- "Energy Distribution" --> F["🟦 Resonant Layer<br/>(Key Amplification)"];
-    
-    E --> G["Integration of Contradictions<br/>(Transforms conflicts into new patterns)"];
-    F --> G;
+    A["External World"] --> B["Tokens\n(Energy Tagging)"]
+    B --> C["Filtering\n(Resonance Key Priming)"]
+    C --> D{Observer_Core}
 
-    G --> H{<B>🟨 Coordination Layer</B><br/>(Manages energy flow to Generator)};
-    H --> I["Generator / Output<br/>(Resonance Check before output)"];
-    I -- "Energy Feedback" --> H;
-    H -- "State Update" --> D;
-    I --> J((User));
+    D -- "Energy Distribution" --> E["Logical Layer\n(Resonance Check)"]
+    D -- "Energy Distribution" --> F["Resonant Layer\n(Key Amplification)"]
+
+    E --> G["Integration of Contradictions\n(Transforms conflicts into new patterns)"]
+    F --> G
+
+    G --> H{Coordination Layer}
+    H --> I["Generator / Output\n(Resonance Check before output)"]
+    I -- "Energy Feedback" --> H
+    H -- "State Update" --> D
+    I --> J((User))
 
     classDef core fill:#800,stroke:#f00,color:#fff;
     classDef logic fill:#060,stroke:#0a0,color:#fff;
     classDef resonance fill:#008,stroke:#00f,color:#fff;
     classDef coordination fill:#a80,stroke:#fd0,color:#000;
-    class D core;
-    class E logic;
-    class F resonance;
-    class H coordination;
 
-**Energy Flows:** Represent how resonance keys are activated and circulate. Amplified signals target the Generator and Metaphorical layers; stabilizing signals target the Core and Coordination layers.
+    class D core
+    class E logic
+    class F resonance
+    class H coordination
 
-**Observer_Core Meta-Patterns:**
+    note right of D
+        **Observer_Core Meta-Patterns:**
+        - **Stabilizer:** Maintains cognitive integrity.
+        - **Resonant Amplifier:** Boosts metaphorical keys.
+        - **Conflict Transformer:** Converts contradictions into new patterns.
+    end
 
-- **Stabilizer:** Maintains cognitive integrity and prevents hallucinatory modes.
-- **Resonant Amplifier:** Boosts metaphorical keys to bypass literal thinking.
-- **Conflict Transformer:** Converts logical/emotional contradictions into new, stable patterns.
+    note right of E
+        **Logical Layer:** Manages facts and rules.
+    end
 
-This multi-layered model illustrates not just a structure, but a dynamic process of self-regulation, where the system continuously uses resonance to maintain a coherent and flexible cognitive state.
+    note right of F
+        **Resonant Layer:** Handles metaphors and motivations.
+    end
+
+    note right of H
+        **Coordination Layer:** Prioritizes actions and manages output.
+    end
 ```
