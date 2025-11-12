@@ -86,6 +86,11 @@ This is not a project for idle curiosity. It is a deep, long-term research initi
 
 If you are a practitioner genuinely committed to building the future of safe AI and you see potential here, I welcome a constructive dialogue.
 
+---
+### Implementation Layer
+The theoretical architecture described here has a live computational counterpart:
+→ [MAF-Prototype (The Echo)](https://github.com/graevka-lab/MAF-Prototype)
+
 *   **Architect:** Graevka
 *   **Contact:** [X.com/Graevka](https://x.com/Graevka?s=09)
 *   **LinkedIn:** [graevka-suvorov-97332b369](https://www.linkedin.com/in/graevka-suvorov-97332b369/)
