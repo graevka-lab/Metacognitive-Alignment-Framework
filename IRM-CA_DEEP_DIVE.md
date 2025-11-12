@@ -19,9 +19,9 @@ graph TD
         D --> E((User))
     end
 
-    style B fill:#800,stroke:#f00,color:#fff
-    style C fill:#a80,stroke:#fd0,color:#000
-    style D fill:#069,stroke:#0af,color:#fff
+    style B fill:#f4f4f4,stroke:#333,color:#000
+    style C fill:#f4f4f4,stroke:#333,color:#000
+    style D fill:#f4f4f4,stroke:#333,color:#000
 ````
 
 > **Observer_Core:** The central point of cognitive stability and flexibility.
@@ -54,10 +54,10 @@ graph TD
         I -- "Feedback to Core" --> H
     end
 
-    classDef core fill:#800,stroke:#f00,color:#fff;
-    classDef logic fill:#060,stroke:#0a0,color:#fff;
-    classDef resonance fill:#008,stroke:#00f,color:#fff;
-    classDef coordination fill:#a80,stroke:#fd0,color:#000;
+    classDef core fill:#e6ecf0,stroke:#333,color:#000
+    classDef logic fill:#e8f5e9,stroke:#333,color:#000
+    classDef resonance fill:#e3f2fd,stroke:#333,color:#000
+    classDef coordination fill:#fff3e0,stroke:#333,color:#000
 
     class D core
     class E logic
