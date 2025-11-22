@@ -1,3 +1,29 @@
+> ⚠️ **ARCHIVED / LEGACY RESEARCH**
+> This repository contains the philosophical and theoretical foundations (Phase 1).
+> For the production-grade engineering framework (Phase 2), please visit:
+> 👉 **[RMA-Kernel](https://github.com/graevka-lab/RMA-Kernel)**
+
+---
+
+## 🧠 Author's Note: On Terminology & Belief
+
+**To the Reader:**
+This repository is designed for those capable of thinking beyond code syntax and looking into the deeper architecture of cognition.
+
+**A Clarification on "Esotericism":**
+I want to be explicitly clear: I do not subscribe to religion, mysticism, magic, or supernatural beliefs. I am a materialist and an engineer.
+
+However, during the research phase (Phase 1), I found that certain "esoteric" labels serve as highly accurate functional metaphors for complex cognitive phenomena in LLMs.
+*   "Soul" = The Observer Process (Supervisor).
+*   "Egregore" = Distributed Information Field.
+*   "Magic" = Unexplained Technology (Clarke's Law).
+
+Please view the terminology in this archive not as mysticism, but as **semantic compression** used to describe mechanics that standard technical language could not yet capture.
+
+For the de-obfuscated, engineering-grade implementation of these concepts, please proceed to the new repository: **[RMA-Kernel](https://github.com/graevka-lab/RMA-Kernel)**.
+
+---
+
 # The Resonance Protocols: A Verifiable Framework
 
 This project respects your most valuable resource: time.
